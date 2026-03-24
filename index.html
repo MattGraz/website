@@ -1,503 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Matt Graziano — Data Scientist, problem solver, and lifelong learner based in Cleveland, OH.">
+  <meta name="author" content="Matt Graziano">
+  <title>Matt Graziano — Data Scientist</title>
 
-  <title>Matt Graz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-  <link href="css/slideshow.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/modern.css">
 </head>
+<body>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Start Bootstrap</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#philosophy">Philosophy </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <br>
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/mattgraz/">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="http://github.com/mattgraz">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/mattgraz109">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
+  <!-- ─── Navigation ─── -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo">MG</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+        <li><a href="#interests" class="nav-link">Interests</a></li>
+        <li><a href="static/Matthew Graziano_Resume.pdf" class="nav-link nav-cta" target="_blank" rel="noopener">Resume</a></li>
       </ul>
+    </nav>
+  </header>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Matt <span class="accent">Graziano</span></h1>
+        <p class="hero-tagline">Data Scientist &middot; Problem Solver &middot; Lifelong Learner</p>
+        <p class="hero-description">I build predictive models, empower teams with data-driven insights, and believe the best work happens when people connect and collaborate.</p>
+        <div class="hero-actions">
+          <a href="#about" class="btn btn-primary">Learn More</a>
+          <a href="static/Matthew Graziano_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">View Resume</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/mattgraz/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/mattgraz" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="img/profile.jpg" alt="Matt Graziano" loading="eager">
+        </div>
+      </div>
     </div>
-  </nav>
+  </section>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <h1 class="mb-0">Matt
-          <span class="text-primary">Graziano</span>
-        </h1>
-        <div class="subheading mb-5">Cleveland, OH ·
-          <a href="mailto:matthew.graziano1@email.com">matthew.graziano1@gmail.com</a>
+  <!-- ─── About ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">I'm a Data Scientist based in Cleveland, OH, passionate about turning complex data into actionable insights that drive real business value.</p>
+          <p>As a husband, lifelong learner, and outdoor enthusiast, I bring the same curiosity and dedication to my personal life as I do to my professional work. I believe in empowering others, leading with integrity, and building bridges between teams.</p>
+          <p>Whether I'm developing weather risk models at Progressive Insurance, hiking in the Smokey Mountains, or diving into a new book, I'm driven by a desire to learn, connect, and contribute.</p>
         </div>
-        <p class="mb-5">
-          Hi! My name is Matt, and welcome to my webpage. If you would like the abridged version of my story, please see one of my
-          <a href="https://www.linkedin.com/in/mattgraz/">LinkedIn</a> or my
-          <a href='static/Matthew Graziano_Resume.pdf'>Resume</a>.
-        </p>
-        <p>
-          I am a husband, life long learner, outdoor enthusiast, lover of connecting people, and a professional Data Scientist
-        </p>
-        <div class="image-gallery" align="center" style="margin-top:15px; margin-bottom:25px">
-          <img src="img/shutterstock/my_family.png" style="center; width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-          <img src="img/shutterstock/mountains.png" style="center; width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-          <img src="img/shutterstock/books.png" style="center; width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-          <img src="img/shutterstock/trees.png" style="left; width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-          <img src="img/shutterstock/connecting_the_dots.png" style="width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-          <img src="img/shutterstock/developer.png" style="width: 10%; margin-right: 2%; margin-bottom: 0.5em;">
-        </div>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="philosophy">
-      <div class="my-auto">
-        <h2 class="mb-5">Philosophy</h2>
-        <h3 class="mt-5">Empower Others</h3>
-        <p> I pride myself on my commitment to the people in my life. Whether it be family, friends, co-workers, or a new friend
-          met out and about, I hope to engage in meaningful discourse with those around me to complete some task. A personal
-          motto of mine that I do my due dilligence to follow is to "never be a blocker to someone else getting their job
-          done". If I can help someone less experienced solve a programming problem in Python, pull data for someone so they
-          can do their analysis, or otherwise break down barriers, I view it a worthwhile undertaking. While maybe not as
-          "sexy" as building a predictive model, the aforementioned tasks could empower the next big initiative or analysis.
-          I have had the great pleasure of working with and interacting with compassionate, intelligent, and drivin people
-          in my career. A willingness and openess to helping other people and be helped myself has been exceedingly impactful
-          on my career and brings me great joy.
-
-        </p>
-        <h3 class="mt-4">Lead with Integrity</h3>
-        <p>
-          What does 'integrity' even mean?
-          <ul>
-            <li>Play by the rules</li>
-            <li>Give credit where credit is due</li>
-            <li>Own and fix your mistakes and do not repeat them</li>
-          </ul>
-        </p>
-        <h3 class="mt-4">Build bridges, not walls</h3>
-        <p>
-          In my experience, much conflict arises due to a lack of consideration of the perspective of one party or the other. Whether
-          that be between Data Scientists and and IT organization, a research team and consumers of a model, or team members,
-          I pride myself on my ability to maintain the big picture. My immediate peers, coworkers in IT, and consumers of
-          my models are all working to bring business vaule in one form or another based on a group of- sometimes- conflicting
-          objectives. If tensions are allowed to fruite, an "us vs them" mentality can subconciously.
-
-        </p>
-        <h3 class="mt-4">Health and wellness- Mentally, physically, and emotionally</h3>
-        <p>I am a firm believer that a ones capacity to meaningfully empower others and lead effectively grows exponentially
-          with the effort allocated to their own personal wellness. Belief in product, physical well being, a pursuit to
-          continuously learn/grow, and emotional intelligence are paramount to all leaders.</p>
-
-        <h3 class="mt-4">Continuous Learning</h3>
-        <p>Whether kicking feet up to crack open an
-          <a href="https://www.amazon.com/Economics-One-Lesson-Shortest-Understand/dp/0517548232">economics book</a>, opening a laptop on my legs to watch youtube
-          <a href="https://www.youtube.com/playlist?list=PLeRmE3N7ThDC6uD5aSuB6t3HRwzDDw9Sq">videos demystifying neural networks</a>, or buliding contraptions with a Raspberry Pi, I simply love learning.</p>
-
-        <h3 class="mt-4">Strength Quest 2.0 Strengths:</h3>
-        <p>
-          <a href=http://news.gallup.com/businessjournal/682/includer.aspx>
-            <b>Includer:</b>
-          </a> I try to ensure the people I work with and interact with are empowered to be controbute and be involved.
-        </p>
-
-        <p>
-          <a href=http://news.gallup.com/businessjournal/688/input.aspx>
-            <b>Input:</b>
-          </a> I collect knowledge from a diverse set of realms. I am simply facinated learning how things function
-        </p>
-
-        <p>
-          <a href=http://news.gallup.com/businessjournal/658/deliberative.aspx>
-            <b>Deliberative:</b>
-          </a> I am generally very careful and conscious of the risks of one action/decision.
-        </p>
-
-        <p>
-          <a href=http://news.gallup.com/businessjournal/652/consistency.aspx>
-            <b>Consistency:</b>
-          </a> Balance is very important to me. Balance between work and life.
-        </p>
-
-        <p>
-          <a href=http://news.gallup.com/businessjournal/622/achiever.aspx>
-            <b>Archiever:</b>
-          </a> I have a strong desire to achomplish something every day
-        </p>
-
-
-
-        <h3 class="mt-4">Impactful Reads:</h3>
-        <p>Below are a handful of my favorite books:</p>
-        <ul>
-          <li>
-            <a href="https://www.amazon.com/Give-Take-Helping-Others-Success-ebook/dp/B00AFPTSI0">Give and Take: Why Helping Others Drives Our Success</a>
-          </li>
-          <li>
-            <a href="https://www.amazon.com/dp/B01MQXJ3EB/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"> The Art of Possibility</a>
-          </li>
-          <li>
-            <a href="https://www.amazon.com/dp/B00139VU7E/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"> The Last Lecture</a>
-          </li>
-          <li>
-            <a href="https://www.amazon.com/Tuesdays-Morrie-Young-Greatest-Lesson-ebook/dp/B000SEGMAU/ref=pd_sim_351_1?_encoding=UTF8&psc=1&refRID=3WKWETRGP4FE6K9SQQCD">
-              Tuesdays with Morrie</a>
-          </li>
-        </ul>
-
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-      <div class="my-auto">
-        <h2>Experience</h2>
-        <p class="mb-5">Please scroll through each of the below to learn more about my professional experience. I have had the pleasure of
-          working at several companies that not only have thrived in their respecitve industrues but have also treated their
-          employees with respect and appreciation.
-        </p>
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Senior Data Scientist</h3>
-            <div class="subheading mb-3">Progressive Insurance (Pricing Research and Development)</div>
-            <div class="resume-date text-md-right mb-5">
-              <span class="text-primary">December 2015 - Present</span>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <img src="img/shutterstock/developer.png" alt="Developer">
             </div>
-            <p>
+            <h3>Data Science</h3>
+            <p>Predictive modeling, ML, and GIS</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <img src="img/shutterstock/connecting_the_dots.png" alt="Connecting">
+            </div>
+            <h3>Collaboration</h3>
+            <p>Building bridges across teams</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <img src="img/shutterstock/books.png" alt="Books">
+            </div>
+            <h3>Learning</h3>
+            <p>Continuous growth and curiosity</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <img src="img/shutterstock/mountains.png" alt="Mountains">
+            </div>
+            <h3>Outdoors</h3>
+            <p>Running, biking, and backpacking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Experience ─── -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
               <div>
-
-                <div style="width: 10%; float:left">
-                  <img src="img/flaticon/hail_on_car.png" height="60%" width="60%" align="left">
-                </div>
-
-                <div style="width: 90%; float:right">
-
-                  Weather events pose significant risk and incur substantive losses year over year to insurers. The more effectively these
-                  phenominon can be understood, the more effectively they can be priced to. Customers receive a insurance
-                  rate more in line with their true risk and the insurer, Progressive, is more profitable. A significant
-                  portion of my time has been spent researching and developing predictive models to inform product manager's
-                  pricing decisions as they pertain to weather events. From a technical perspective, these projects have
-                  required tooling from from standard machine learning tools to Geographic Information Systems (GIS) tooling.
-                  I have led initiatives learning how to effectively process, visualize, and model geographic data to solve
-                  relevant business problems.
-                </div>
-
+                <h3>Senior Data Scientist</h3>
+                <p class="timeline-company">Progressive Insurance <span class="timeline-dept">— Pricing Research &amp; Development</span></p>
               </div>
-            </p>
-
-
-
-            <!-- <ul>
-              <p>“If we knew what it was we were doing, it would not be called research, would it?” - Albert Einstein Working
-                in Pricing R&D
-
-              </p>
-              <li> Developed and supported predictive models to improve the science of pricing at Progressive</li>
-              <li> Hail Model</li>
-              <li> Skewed </li>
-              <li> Reporting/Documentation/Support</li>
-              <li> ARIMA Deseasonalization
-                <li></li>
-                <li> Developed and supported predictive models to improve the science of pricing at Progressive</li>
-            </ul> -->
+              <span class="timeline-date">Dec 2015 — Present</span>
+            </div>
+            <p>Weather events pose significant risk and incur substantive losses year over year to insurers. I research and develop predictive models to inform pricing decisions as they pertain to weather events, leveraging machine learning tools and Geographic Information Systems (GIS) to help customers receive rates more in line with their true risk.</p>
           </div>
-
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Information Analyst 2</h3>
-            <div class="subheading mb-3">Caterpillar Inc.</div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Information Analyst 2</h3>
+                <p class="timeline-company">Caterpillar Inc.</p>
+              </div>
+              <span class="timeline-date">Dec 2011 — Mar 2013</span>
+            </div>
             <ul>
-              <li>Developed predictive models to forecast demand for part and machine sales to assist in manufacturing capacity
-                investment and inventory planning decisions leading to over $5 million in value</li>
-              <li>Led retail analytics initiatives for Caterpillar dealers uncovering customer insights and purchase trends to
-                drive sales, marketing, and inventory planning strategies</li>
-              <li>Sought by team members to implement data analytics techniques and meet fast approaching project deadlines requiring
-                rapid technical execution, business acumen, and/or building relationships and communicating between multiple
-                groups
-              </li>
-              <li>Supported Caterpillar dealers in their transition to a new inventory management system by running inventory
-                simulations, optimizing their inventory management parameters, analyzing transactional data, and supporting
-                dealers in troubleshooting problems when necessary </li>
+              <li>Developed predictive models to forecast demand for part and machine sales, driving over $5M in value</li>
+              <li>Led retail analytics initiatives for Caterpillar dealers, uncovering customer insights and purchase trends</li>
+              <li>Supported dealers transitioning to a new inventory management system through simulations and data analysis</li>
             </ul>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
-          </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Information Analyst 1 (Analytics Rotational Development Program)</h3>
-            <div class="subheading mb-3">Caterpillar Inc.</div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Information Analyst 1</h3>
+                <p class="timeline-company">Caterpillar Inc. <span class="timeline-dept">— Analytics Rotational Program</span></p>
+              </div>
+              <span class="timeline-date">Jul 2010 — Dec 2011</span>
+            </div>
             <ul>
-              <li>Consulted Caterpillar dealers on optimizing their Caterpillar Parts Inventory by running simulations, providing
-                expertise of best practices, and leveraging data to inform business decisions, leading to $200,000-$800,000
-                (~6%) in inventory savings at each dealer ($6,000,000 + in total)</li>
-              <li>Automated and Systemized data collection, munging, and visualization for numerous projects yielding time/monetary
-                savings of over 300 hours/$60,000 each year in analysis and management of big datasets, fostering more rapid
-                and data-informed decisions</li>
-              <li>Created forecasting graphical user interface in R (package “shiny) allowing easy, fast, and accurate predictive
-                model development utilizing numerous statistical and machine learning techniques such as regularization (Lasso,
-                ridge), multiple linear regression, time series analysis, Random Forest regression, and more</li>
-              <li>Participated in multiple cross functional rotations in supply chain, manufacturing, and Information Analytics,
-                and rapidly adapted to each new business realm and found meaningful ways to contribute, ultimately leading
-                to a rating of “Exceeds Expectations” in first full year</li>
+              <li>Consulted dealers on parts inventory optimization, yielding $6M+ in total savings</li>
+              <li>Automated data pipelines saving 300+ hours and $60,000 annually</li>
+              <li>Built a forecasting GUI in R Shiny using regression, time series, and random forest techniques</li>
+              <li>Rated "Exceeds Expectations" in first full year across multiple cross-functional rotations</li>
             </ul>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users
-              after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-      <div class="my-auto">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Indiana University Bloomington-Normal</h3>
-            <div class="subheading mb-2">Masters of Science</div>
-            <div>Data Science</div>
-            <p>GPA: 3.6</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2016 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">University of Illinois at Urbana-Champaign</h3>
-            <div class="subheading mb-2">Bachelor of Science</div>
-            <div>Statistics / Political Science (Double Major)</div>
-            <div class="mb-3=">Minors in Leadership Studies, Mathematics</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2010 - May 2014</span>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Web Design Intern</h3>
+                <p class="timeline-company">Shout! Media Productions</p>
+              </div>
+              <span class="timeline-date">Sep 2008 — Jun 2010</span>
+            </div>
+            <p>Collaborated on web design projects, gaining foundational experience in front-end development and digital media production.</p>
           </div>
         </div>
 
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-      <div class="my-auto">
-        <h2 class="mb-5">Skills</h2>
+  <!-- ─── Education ─── -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i class="devicons devicon-python-plain-wordmark"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <img src="img/R_logo_grayscale.png" height="40" width="40">
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicons-javascript"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicon-visualstudio-plain-wordmark"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicon-github-plain-wordmark"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicon-git-plain-wordmark"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicons-linux"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicons-ubuntu"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicons-raspberry_pi"></i>
-          </li>
-
-          <li class="list-inline-item">
-            <i class="devicons devicon-amazonwebservices-plain-wordmark"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-      <div class="my-auto">
-        <h2 class="mb-5">Interests</h2>
-        <p> When not behind a computer screen and terminal, I really enjoy spending my days outside running, biking, playing
-          ultimate frisbee, or backpacking.</p>
-        <p class="mb-0">In the brisk Cleveland winters, I love to read, watch movies with my wife, and exercise.</p>
-
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides">
-            <div class="numbertext center">1 / 3</div>
-            <p style="text-align:center;">
-              <img src="img/smokey_mountains.jpg" style="width:50%" vspace=20px>
-            </p>
-            <div class="text">Backpacking in the Smokey Mountains</div>
+        <div class="education-card">
+          <div class="education-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
           </div>
-
-          <div class="mySlides">
-            <div class="numbertext">2 / 3</div>
-            <p style="text-align:center;">
-              <img src="img/wedding_photo.jpg" style="width:50%" vspace=20px>
-            </p>
-            <div class="text">My Wife and I on our wedding day, 11-04-2017</div>
+          <div class="education-details">
+            <h3>Indiana University Bloomington</h3>
+            <p class="education-degree">Master of Science — Data Science</p>
+            <p class="education-meta">GPA: 3.6</p>
+            <span class="education-date">Aug 2016 — Present</span>
           </div>
-
-          <div class="mySlides">
-            <div class="numbertext">3 / 3</div>
-            <p style="text-align:center;">
-              <img src="img/white_sox.jpg" style="width:50%" vspace=20px>
-            </p>
-            <div class="text">The second love of my life, the Chicago White Sox</div>
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
 
-
+        <div class="education-card">
+          <div class="education-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
+          </div>
+          <div class="education-details">
+            <h3>University of Illinois at Urbana-Champaign</h3>
+            <p class="education-degree">Bachelor of Science — Statistics &amp; Political Science</p>
+            <p class="education-meta">Minors in Leadership Studies &amp; Mathematics &middot; GPA: 3.56</p>
+            <span class="education-date">Aug 2010 — May 2014</span>
+          </div>
+        </div>
 
       </div>
-    </section>
+    </div>
+  </section>
 
-  </div>
+  <!-- ─── Skills ─── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Data Science</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Predictive Modeling</span>
+            <span class="skill-tag">GIS</span>
+            <span class="skill-tag">Time Series</span>
+            <span class="skill-tag">Statistical Analysis</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">R Shiny</span>
+            <span class="skill-tag">Raspberry Pi</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Workflow</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Agile / Scrum</span>
+            <span class="skill-tag">Cross-Functional Teams</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Data Pipelines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- ─── Philosophy ─── -->
+  <section class="section" id="philosophy">
+    <div class="container">
+      <h2 class="section-title">Philosophy</h2>
+      <div class="philosophy-grid">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <div class="philosophy-card">
+          <div class="philosophy-number">01</div>
+          <h3>Empower Others</h3>
+          <p>I believe in never being a blocker to someone else getting their job done. Whether it's helping a colleague solve a Python problem or breaking down barriers between teams, empowering others to succeed is always a worthwhile undertaking.</p>
+        </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-  <script src="js/slideshow.js"></script>
+        <div class="philosophy-card">
+          <div class="philosophy-number">02</div>
+          <h3>Lead with Integrity</h3>
+          <p>Play by the rules. Give credit where credit is due. Own and fix your mistakes — and don't repeat them. These simple principles guide every decision I make.</p>
+        </div>
 
+        <div class="philosophy-card">
+          <div class="philosophy-number">03</div>
+          <h3>Build Bridges, Not Walls</h3>
+          <p>Much conflict arises from a lack of perspective. I pride myself on maintaining the big picture and helping teams with sometimes-conflicting objectives find common ground and deliver value together.</p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-number">04</div>
+          <h3>Health &amp; Wellness</h3>
+          <p>A person's capacity to empower others and lead effectively grows exponentially with the effort allocated to their own wellness — mentally, physically, and emotionally.</p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-number">05</div>
+          <h3>Continuous Learning</h3>
+          <p>Whether cracking open an economics book, watching videos demystifying neural networks, or building contraptions with a Raspberry Pi, I simply love learning.</p>
+        </div>
+
+      </div>
+
+      <div class="philosophy-extra">
+        <div class="strengths">
+          <h3>StrengthsFinder 2.0</h3>
+          <div class="strength-tags">
+            <span class="strength-tag">Includer</span>
+            <span class="strength-tag">Input</span>
+            <span class="strength-tag">Deliberative</span>
+            <span class="strength-tag">Consistency</span>
+            <span class="strength-tag">Achiever</span>
+          </div>
+        </div>
+        <div class="reading-list">
+          <h3>Recommended Reading</h3>
+          <ul>
+            <li><a href="https://www.amazon.com/Give-Take-Helping-Others-Success-ebook/dp/B00AFPTSI0" target="_blank" rel="noopener">Give and Take: Why Helping Others Drives Our Success</a></li>
+            <li><a href="https://www.amazon.com/dp/B01MQXJ3EB/" target="_blank" rel="noopener">The Art of Possibility</a></li>
+            <li><a href="https://www.amazon.com/dp/B00139VU7E/" target="_blank" rel="noopener">The Last Lecture</a></li>
+            <li><a href="https://www.amazon.com/Tuesdays-Morrie-Young-Greatest-Lesson-ebook/dp/B000SEGMAU/" target="_blank" rel="noopener">Tuesdays with Morrie</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Interests ─── -->
+  <section class="section section-alt" id="interests">
+    <div class="container">
+      <h2 class="section-title">Beyond Work</h2>
+      <p class="interests-intro">When not behind a computer screen, I enjoy spending my days outside running, biking, playing ultimate frisbee, or backpacking. In the brisk Cleveland winters, I love to read, watch movies with my wife, and exercise.</p>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="img/smokey_mountains.jpg" alt="Backpacking in the Smokey Mountains" loading="lazy">
+          <div class="gallery-caption">
+            <p>Backpacking in the Smokey Mountains</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/wedding_photo.jpg" alt="Wedding day, November 4, 2017" loading="lazy">
+          <div class="gallery-caption">
+            <p>My wife and I on our wedding day</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/white_sox.jpg" alt="Chicago White Sox" loading="lazy">
+          <div class="gallery-caption">
+            <p>The Chicago White Sox — my favorite team</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Matt Graziano</p>
+          <p>Cleveland, OH &middot; <a href="mailto:matthew.graziano1@gmail.com">matthew.graziano1@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/mattgraz/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/mattgraz" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
